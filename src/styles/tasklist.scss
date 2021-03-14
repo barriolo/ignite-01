@@ -58,6 +58,10 @@ section.task-list {
           filter: brightness(0.95);
         }
       }
+      button:disabled {
+        background: var(--text-light);
+        cursor: not-allowed;
+      }
     }
   }
 
